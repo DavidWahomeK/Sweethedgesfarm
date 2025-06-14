@@ -1,0 +1,331 @@
+* {box-sizing:border-box}
+
+html, body {
+    height: 100%;
+    margin-top: 0;
+    padding: 0;
+    background-color: #F9DEC9;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9DEC9;
+    padding: 0%;
+}
+
+#logo {
+    width: 90px;
+    height: 90px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    margin-top: 0%;
+}
+
+#logo-anchor {
+    padding: 0%;
+    margin: 0%;
+}
+    
+
+
+h1 {
+    font-size: 25px;
+    font-weight: normal;
+    padding: 10px;
+    color: white;
+}
+ul {
+    display: flex;
+    list-style: none;
+  
+}
+
+#navbar-button {
+    margin: 1px;
+    padding: 20px;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    font-size: 17px;
+}
+
+#welcome {
+      background-image: url(assets/about-us.jpg); 
+    display: grid;
+    height: 70vh;
+    width: 700px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+      
+#welcome h2{
+text-align: center;
+}
+
+h2 , h3 {
+    color: #b9e691;
+}
+
+#home-container img{
+    width: 260px;
+    height: 190px;  
+    margin-left: 50px;
+    margin-top: 25px; 
+}
+
+#home-text-container{
+     display: flex;
+   justify-content: space-around;
+   
+}
+
+
+#home-description {
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#tearoom-container {
+    background-image: url(assets/tearoom.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu-container  {
+   margin: 20px;
+   margin-left: 40px;
+
+}
+
+#tearoom{
+    color:#b9e691;
+    margin-bottom: 500px;
+    font-weight: bold;
+}
+
+#menu-container{
+text-align: center;
+}
+
+#menu-button{
+    color: black;
+    background-color: rgba(243, 243, 243, 0.884);
+    border: 0;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 1.6em;
+    border-radius: 5px;
+}
+
+#general-h1{
+    color: black;
+    margin-left: 60px;
+}
+
+#general-container{
+    background-image: url(assets/generalmenu.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#general-menucontainer{
+    display: flex;
+   justify-content: space-around;
+}
+
+#general-menu{
+        background-color: rgba(243, 243, 243, 0.884);
+        width: 300px;
+        text-align: center;
+        height: auto;
+        margin: 20px;
+        padding: 10px;
+}
+
+#menu-description p {
+color: black;
+}
+
+#vegeterian-anchor{
+    text-decoration: none;
+    font-style: none;
+    color: brown;
+}
+
+#vegeterian-menu{
+       background-color: rgba(243, 243, 243, 0.884);
+        width: 500px;
+        text-align: center;
+        height: auto;
+        margin: 110px;
+        padding: 110px;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  align-items:center;
+}
+
+.mySlides {
+  display: none;
+
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.numbertext {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: relative;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color:rgba(228, 212, 193, 0.822);
+  border-radius: 10px;
+  border: 0;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+#Fishing-lake-container{
+  text-align: center;
+}
+
+#contact-container{
+  background-image: url(assets/image4.png);
+  display: grid;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+}
+
+#contact-details{
+  margin: 20px;
+  justify-content: center;
+  align-items: top;
+  margin: 0;
+  padding-top: 5px;
+}
+
+#contact-details h1{
+  color:  #b9e691;
+  font-weight: bold;
+  text-align: center;
+}
+
+#contact-details p {
+  color: white;
+}
+
+#caravan-container{
+  background-image: url(assets/image7.png);
+  display: grid;
+  height: 70vh;
+  width: 700px;
+  margin: auto;
+  background-repeat: no-repeat;
+ background-size: cover;
+  
+}
+
+#caravan-details{
+  width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+hr {
+height: 2px;
+width: 700px;
+color: #b9e691;
+}
+
+footer {
+  margin: auto;
+  text-align: center;
+}
+
+.fa  {
+background-color: navy;
+color: white;
+width: 20px;
+height: 20px;
+}
+
+#local-container{
+  background-image: url(assets/Caravan-Site.jpg);
+  display: grid;
+  height: 70vh;
+  width: 700px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#local-container h1{
+  color: #b9e691;
+  font-weight: bold;
+  text-align: center;
+}
+
+#local-description{
+ margin: 20px;
+ text-align: center;  
+
+}
